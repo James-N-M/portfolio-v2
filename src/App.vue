@@ -59,27 +59,46 @@
         <span id="Work"></span>
         <section>
             <h2 class="font-bold text-3xl mb-4 text-center">Open Source Contributions</h2>
-            <div class="flex justify-center mt-8 mb-8 w-full mx-8">
-                <ul class="list-disc">
-                    <li class="font-mono leading-loose text-xl">
-                        <a class="font-bold text-black"
-                           href="https://github.com/Protoqol/Prequel">protocol/prequel</a>:
-                        a modern and lightweight database browser/tool ready for the web of the future.
-                    </li>
-                    <li class="font-mono leading-loose text-xl">
-                        <a class="font-bold text-black"
-                           href="https://github.com/philippejadin/agorakit">philippejadin/agorakit</a>:
-                        a web-based groupware for citizens.
-                    </li>
-                    <li class="font-mono leading-loose text-xl">
-                        <a class="font-bold text-black"
-                           href="https://github.com/iluminar/goodwork">iluminar/goodwork</a>:
-                        self hosted project management and collaboration tool.
-                    </li>
-                </ul>
+            <div class="">
+                <Tabs>
+                    <tab title="Prequel">
+                        <p>A database management tool for Laravel to replace the need for separate standalone database tools like phpMyAdmin, Sequel Pro or MySQL Workbench.</p>
+                        <p>Built a dark theme switcher using vue js and tailwind css</p>
+                        <p>Bug fix causing wrong active table name to be highlighted in sidebar</p>
+                        <p>Fix Added horizontal scroll bar to top of active table</p>
+                    </tab>
+                    <tab title="Second">
+                        <p>Hello World again</p>
+                    </tab>
+                    <tab title="Third" active>
+                        <p>Hello World and out.</p>
+                    </tab>
+                </Tabs>
             </div>
 
 
+<!--            <div class="flex justify-center mt-8 mb-8 w-full mx-8">-->
+<!--                <ul class="list-disc">-->
+<!--                    <li class="font-mono leading-loose text-xl">-->
+<!--                        <a class="font-bold text-black"-->
+<!--                           href="https://github.com/Protoqol/Prequel">protocol/prequel</a>:-->
+<!--                        a modern and lightweight database browser/tool ready for the web of the future.-->
+<!--                    </li>-->
+<!--                    <li class="font-mono leading-loose text-xl">-->
+<!--                        <a class="font-bold text-black"-->
+<!--                           href="https://github.com/philippejadin/agorakit">philippejadin/agorakit</a>:-->
+<!--                        a web-based groupware for citizens.-->
+<!--                    </li>-->
+<!--                    <li class="font-mono leading-loose text-xl">-->
+<!--                        <a class="font-bold text-black"-->
+<!--                           href="https://github.com/iluminar/goodwork">iluminar/goodwork</a>:-->
+<!--                        self hosted project management and collaboration tool.-->
+<!--                    </li>-->
+<!--                </ul>-->
+<!--            </div>-->
+        </section>
+
+        <section>
             <h2 id="Talks" class="font-bold text-3xl mb-4 text-center">Talks</h2>
             <div class="flex justify-center text-center">
                 <ul class="list-reset pb-10 text-2xl underline">
@@ -104,13 +123,17 @@
 import TopNav from "@/components/TopNav";
 import Footer from "@/components/Footer";
 import Bubble from "@/components/Bubble";
+import Tabs from "@/components/Tabs";
+import Tab from "@/components/Tab";
 
 export default {
     name: 'App',
     components: {
         TopNav,
         Footer,
-        Bubble
+        Bubble,
+        Tabs,
+        Tab
     }
 }
 </script>
