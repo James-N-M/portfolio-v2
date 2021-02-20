@@ -1,24 +1,9 @@
-# new-personal-portfolio
+<h1 align="center">
+  jamesmoore.xyz - v2
+</h1>
 
-## Project setup
-```
-npm install
-```
+<p align="center">
+  The second iteration of my personal portfolio website, hosted with github pages. Production deployment setup through travis ci. 
+</p>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<p>Built with Vue JS and TailwindCSS</p>
