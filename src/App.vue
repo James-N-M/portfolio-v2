@@ -25,21 +25,16 @@
                 </div>
                 <div class="px-4 py-2 sm:w-1/3">
                     <h3 class="text-5xl font-bold mb-4">About Me.</h3>
-                    <p class="leading-loose mb-2">I have a Bachelors Degree in Computer Science from the
+                    <p class="leading-loose mb-2">I have a Bachelors of Computer Science, Honours degree from the
                         University Of Windsor as well as a Advanced Diploma in Computer Systems Technology
                         from St.Clair College. I'm currently working for
-                        <a class="text-black" href="http://www.flex-n-gate.com/index.html">Flex-n-Gate</a> Canada as we
-                        rework
-                        and develop existing and new in house software solutions. Specifically the PLM tool
-                        which tracks the lifecycle and all things included of the parts we build. Using
-                        <a class="text-black" href="https://laravel.com/">Laravel</a> and
-                        <a class="text-black" href="https://vuejs.org/">Vue.</a></p>
+                        <a class="text-black underline" href="https://rocketinnovationstudio.ca/">Rocket Innovation Studio</a>
                     <p class="leading-loose mb-2">I love meeting new people and working on cool stuff. I'm always
-                        looking for a opportunity to take these skills ive acquired and give back a little
+                        looking for a opportunity to take these skills I've acquired and give back a little
                     </p>
                     <ul class="list-reset">
                         <li class="mt-5"><font-awesome-icon :icon="['fas', 'map-pin']"></font-awesome-icon> Windsor Ontario Canada</li>
-                        <li class="mt-5"><font-awesome-icon :icon="['fas', 'briefcase']"></font-awesome-icon> Flex-N-Gate Canada</li>
+                        <li class="mt-5"><font-awesome-icon :icon="['fas', 'briefcase']"></font-awesome-icon> Rocket Innovation Studio</li>
                         <li class="mt-5"><font-awesome-icon :icon="['far', 'envelope']"></font-awesome-icon> jamesm0025@gmail.com</li>
                     </ul>
                 </div>
@@ -49,10 +44,14 @@
         <section>
             <h2 class="font-bold text-3xl mb-4 text-center">Languages & Frameworks</h2>
             <div class="flex flex-wrap justify-center mt-8 w-full">
+                <!-- FNG -->
                 <Bubble title="php" href="https://www.php.net/" icon-type="fab" icon="php" color="text-purple-500"></Bubble>
                 <Bubble title="laravel" href="https://laravel.com/" icon-type="fab" icon="laravel" color="text-white"></Bubble>
                 <Bubble title="javascript" href="https://www.javascript.com/" icon-type="fab" icon="js" color="text-blue-500"></Bubble>
                 <Bubble title="vue js" href="https://vuejs.org/" icon-type="fab" icon="vuejs" color="text-green-600"></Bubble>
+                <!-- RIS -->
+                <Bubble title="csharp" href="https://docs.microsoft.com/en-us/dotnet/csharp/" icon-type="fab" icon="windows" color="text-white"></Bubble>
+                <Bubble title="angular" href="https://angular.io/" icon-type="fab" icon="angular" color="text-red-600"></Bubble>
             </div>
         </section>
 
