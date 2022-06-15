@@ -29,6 +29,7 @@
                         University Of Windsor as well as a Advanced Diploma in Computer Systems Technology
                         from St.Clair College. I'm currently working for
                         <a class="text-black underline" href="https://rocketinnovationstudio.ca/">Rocket Innovation Studio</a>
+                    </p>
                     <p class="leading-loose mb-2">I love meeting new people and working on cool stuff. I'm always
                         looking for a opportunity to take these skills I've acquired and give back a little
                     </p>
