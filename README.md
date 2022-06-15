@@ -1,4 +1,7 @@
 # new-personal-portfolio
+<p align="center">
+  The second iteration of my personal portfolio website, hosted with github pages.
+</p>
 
 ## Project setup
 ```
