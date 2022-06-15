@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  The second iteration of my personal portfolio website, hosted with github pages. Production deployment setup through travis ci. 
+  The second iteration of my personal portfolio website, hosted with github pages.
 </p>
 
 <p>Built with Vue JS and TailwindCSS</p>
