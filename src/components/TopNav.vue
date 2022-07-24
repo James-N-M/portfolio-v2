@@ -1,10 +1,10 @@
 <template>
-    <nav class="bg-gray-800 sticky flex items-center justify-around sm:justify-end sm:text-2xl text-xl w-full">
-        <ScrollLink class="text-white p-4 sm:mr-8 no-underline grow" href="#About">About</ScrollLink>
-        <ScrollLink class="text-white p-4 sm:mr-8 no-underline grow" href="#Work">Work</ScrollLink>
-        <ScrollLink class="hidden md:inline-block no-underline p-4 sm:mr-8 text-white grow" href="#Talks">Talks</ScrollLink>
-        <ScrollLink class="text-white p-4 sm:mr-8 no-underline grow" href="#Contact">Contact</ScrollLink>
-        <a class="text-white  p-4 sm:mr-8 no-underline grow" href="https://linktr.ee/getsomemoore94">
+    <nav class="bg-gray-800 sticky flex items-center justify-around sm:justify-end sm:text-2xl text-xl w-full z-50">
+        <ScrollLink class="text-white p-2 sm:mr-8 no-underline grow" href="#About">About</ScrollLink>
+        <ScrollLink class="text-white p-2 sm:mr-8 no-underline grow" href="#Work">Work</ScrollLink>
+        <ScrollLink class="hidden md:inline-block no-underline p-2 sm:mr-8 text-white grow" href="#Talks">Talks</ScrollLink>
+        <ScrollLink class="text-white p-2 sm:mr-8 no-underline grow" href="#Contact">Contact</ScrollLink>
+        <a class="text-white p-2 sm:mr-8 no-underline grow" href="https://linktr.ee/getsomemoore94">
             <font-awesome-icon :class="['text-xxl', 'text-white']"
                                :icon="['fas', 'feather-alt']"></font-awesome-icon>
         </a>
