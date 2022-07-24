@@ -111,8 +111,8 @@
               <h2 class="title font-lg">Associate Software Developer</h2>
               <h3>Rocket Innovation Studio</h3>
               <div class="mt-1">
-                <span class="badge-red text-white mr-1">.NET Core</span>
-                <span class="badge-blue text-white mr-1">Angular</span>
+                <span class="badge-red text-red mr-1">.NET Core</span>
+                <span class="badge-blue text-blue mr-1">Angular</span>
               </div>
             </div>
           </div>
@@ -122,8 +122,8 @@
               <h2 class="title font-lg">Software Developer</h2>
               <h3>Flex-N-Gate Canada</h3>
               <div class="mt-1">
-                <span class="badge-red text-white mr-1">Laravel</span>
-                <span class="badge-blue text-white mr-1">Vue</span>
+                <span class="badge-red text-red mr-1">Laravel</span>
+                <span class="badge-blue text-blue mr-1">Vue</span>
               </div>
             </div>
           </div>
