@@ -102,30 +102,33 @@
           </ul>
         </div>
       </div>
-
-      <div class="timeline p-1">
-        <div class="timeline-body">
-          <div class="timeline-item">
-            <div class="content">
-              <p class="time">Sept 2021</p>
-              <h2 class="title font-lg">Associate Software Developer</h2>
-              <h3>Rocket Innovation Studio</h3>
-              <div class="mt-1">
-                <span class="badge-red text-red mr-1">.NET Core</span>
-                <span class="badge-blue text-blue mr-1">Angular</span>
+      
+      <div class="flex justify-center">
+        <div class="timeline m-1">
+          <div class="timeline-body">
+            <div class="timeline-item">
+              <div class="content">
+                <p class="time">Sept 2021</p>
+                <h2 class="title font-lg">Associate Software Developer</h2>
+                <h3>Rocket Innovation Studio</h3>
+                <div class="mt-1">
+                  <span class="badge-red text-red mr-1">.NET Core</span>
+                  <span class="badge-blue text-blue mr-1">Angular</span>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="timeline-item">
-            <div class="content">
-              <p class="time">Sept 2017</p>
-              <h2 class="title font-lg">Software Developer</h2>
-              <h3>Flex-N-Gate Canada</h3>
-              <div class="mt-1">
-                <span class="badge-red text-red mr-1">Laravel</span>
-                <span class="badge-blue text-blue mr-1">Vue</span>
+            <div class="timeline-item">
+              <div class="content">
+                <p class="time">Sept 2017</p>
+                <h2 class="title font-lg">Software Developer</h2>
+                <h3>Flex-N-Gate Canada</h3>
+                <div class="mt-1">
+                  <span class="badge-red text-red mr-1">Laravel</span>
+                  <span class="badge-blue text-blue mr-1">Vue</span>
+                </div>
               </div>
             </div>
+            <div class="start"></div>
           </div>
         </div>
       </div>
