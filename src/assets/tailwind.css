@@ -1,5 +1,9 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+@layer base {
+   div .timeline .timeline-body .start:after {
+        left: -8px;
+    }
+}
