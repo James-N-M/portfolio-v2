@@ -108,6 +108,13 @@
           <div class="timeline-body">
             <div class="timeline-item">
               <div class="content">
+                <p class="time">May 2023</p>
+                <h2 class="title font-lg">Software Developer</h2>
+                <h3>Rocket Innovation Studio</h3>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="content">
                 <p class="time">Sept 2021</p>
                 <h2 class="title font-lg">Associate Software Developer</h2>
                 <h3>Rocket Innovation Studio</h3>
@@ -228,6 +235,15 @@
           </a>
         </ul>
       </div>
+    </section>
+
+    <section
+      id="Projects"
+      class="flex flex-col items-center justify-center py-16"
+    >
+    <ul>
+      <li><a href="https://github.com/James-N-M/dictionary-web-app">Dictionary Web App</a></li>
+    </ul>
     </section>
 
     <section
